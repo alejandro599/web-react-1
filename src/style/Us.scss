@@ -1,0 +1,160 @@
+$primary: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.virgen {
+  object-fit: cover;
+  width: 55%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  
+ 
+}
+.us-containter {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  margin-top: -100px;
+  
+
+  h1 {
+    font-size: 100px;
+    display: flex;
+    margin-top: -100px;
+    top: -180px;
+    color: $primary;
+    background: #eeff00;
+    text-shadow: rgb(226, 228, 219) 0px 0px 5px, rgb(252, 247, 0) 0px 0px 10px,
+      #fff 0px 0px 15px, #0004fd 0px 0px 20px, #ffffff 0px 0px 30px,
+      #2f01f8 0px 0px 20px, #2d01f0 0px 0px 20px, #0a18d6 0px 0px 75px;
+    background-clip: text;
+    opacity: 0;
+  }
+  .about-us {
+    display: flex;
+    margin-top: 200px;
+    border-radius: 20px 0 0 20px;
+    width: 55%;
+    float: right;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 150px;
+    h2 {
+      text-transform: capitalize;
+margin-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    p {
+      word-spacing: 3px;
+
+      line-height: 2rem;
+
+      text-align: justify;
+      font-family: "Roboto", sans-serif;
+      .cult {
+        font-size: 1.5rem;
+      }
+    }
+    .lema {
+      word-spacing: 3px;
+      padding-bottom: 20px;
+      line-height: 2rem;
+
+      text-align: start;
+
+      font-family: "Roboto", sans-serif;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .us-containter{
+    .virgen{
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
+      
+    }
+    .about-us {
+      padding: 100px;
+      p{
+        line-height: 2rem;
+      }
+    }
+  }
+  
+}
+@media only screen and (max-width: 1000px) {
+  .us-containter{
+    display: flex;
+    justify-content: flex-end;
+    
+    .virgen{
+      object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+      
+    }
+    .about-us {
+      padding: 80px;
+      width: 100%;
+      p{
+        line-height: 2rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+  
+  .us-containter{
+    .virgen{
+      object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+      
+    }
+    
+    
+    .about-us {
+      padding: 40px;
+      width: 100%;
+      p{
+        line-height: 1.5rem;
+      
+      }
+    }
+  }
+}
+@media only screen and (max-width: 764px) {
+  
+  .us-containter{
+    display: flex;
+    justify-content: flex-end;
+    .virgen{
+      object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+      background-attachment: fixed;
+    }
+    
+    .about-us {
+      padding: 40px;
+      width: 100%;
+      p{
+        line-height: 1.5rem;
+      
+      }
+    }
+  }
+}

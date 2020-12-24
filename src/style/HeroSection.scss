@@ -1,0 +1,118 @@
+$primary: #fff;
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.hero-container {
+  //background: url('/images/img-home.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  justify-content: center;
+  margin-top: -100px;
+  h1 {
+    
+    font-size: 100px;
+    margin-top: 100px;
+    top: -70px;
+    display: flex;
+    position: relative;
+    color: $primary;
+    background: #eeff00;
+    text-shadow: rgb(226, 228, 219) 0px 0px 5px, rgb(252, 247, 0) 0px 0px 10px, #FFF 0px 0px 15px, #0004fd 0px 0px 20px, #ffffff 0px 0px 30px, #2f01f8 0px 0px 20px, #2d01f0 0px 0px 20px, #0a18d6 0px 0px 75px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0;
+   
+  }
+  p {
+    margin-top: 8px;
+    color: $primary;
+    font-size: 32px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      text-shadow: -1px 10px 6px rgba(0, 0, 0,0.9);
+      display: flex;
+      top:-100px;
+      opacity: 0;
+      
+  }
+  .hero-btns {
+    margin-top: 32px;
+    .btn {
+      margin: 6px;
+    }
+  }
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+}
+@media only screen and (max-width:1024px){
+  .hero-container {
+    display: flex;
+    width: 100%;
+      }
+}
+@media only screen and (min-width: 1200px) {
+  .hero-container {
+    display: flex;
+    
+  }
+}
+@media screen and(max-width:960px) {
+  .hero-container{
+    width: 100%;
+  }
+  
+  .hero-container h1 {
+    color: $primary;
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+@media screen and(max-width:768px) {
+  .hero-container {
+    h1 {
+      color: $primary;
+      font-size: 60px;
+      margin-top: 100px;
+      padding: 10px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .btn-mobile{
+        display: block;
+    }
+    .btn{
+        width: 100%;
+    }
+  }
+}
+.custom-shape-divider-bottom-1606856188 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1606856188 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1606856188 .shape-fill {
+  fill: #FFFFFF;
+}
