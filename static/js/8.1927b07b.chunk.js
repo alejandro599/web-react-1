@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-website-responsive-1"]=this["webpackJsonpreact-website-responsive-1"]||[]).push([[8],{47:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return r}));var s=n(0),a=n.n(s);n(19);function r(){return a.a.createElement(a.a.Fragment,null,a.a.createElement("h1",{className:"sign-up"}," No tienes Acceso"))}}}]);
+//# sourceMappingURL=8.1927b07b.chunk.js.map
