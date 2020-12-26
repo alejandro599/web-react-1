@@ -42,3 +42,17 @@ background-image: url('/images/caporal.jpg');
   height: 100vh;
   margin-top: -100px;
 }
+@media screen and (max-width: 360px) {
+  .sign-up {
+    background-image: url('/images/caporal.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
+      text-align: center;
+      font-size: 80px;
+      height: 100vh;
+      margin-top: -100px;
+      padding: 10px;
+    }
+}
