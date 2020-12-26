@@ -64,3 +64,15 @@ $primary: #fff;
     }
   }
 }
+@media screen and(max-width:360px) {
+  .pros-container {
+    .card{
+      width: 470px;
+    margin: 5px 50px;
+    padding: 20px 30px;
+    padding-top: 80px;
+    height: 400px;
+    overflow: hidden;
+    }
+  }
+}

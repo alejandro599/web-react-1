@@ -323,3 +323,47 @@ $primary: #fff;
     }
   }
 }
+@media screen and(max-width:360px) {
+  .footer-container {
+    .map {
+      width: 300px;
+    }
+    .footer-links {
+      ul {
+        margin-left: -100px;
+        li {
+          .fab {
+            margin-left: -10px;
+            width:60px;
+            height: 60px;
+            
+          }
+          .fb{
+            width: 60px;
+            height: 60px;
+            font-size: 40px;
+          }
+          .wsp{
+            width: 60px;
+            height: 60px;
+            font-size: 40px;
+          }
+        }
+      }
+      .frate {
+        margin-right: 22px;
+        font-size: 10px;
+        color: $primary;
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+      }
+      .mari {
+        padding: 10px;
+        margin-left: -35px;
+        font-size: 10px;
+        text-align: end;
+        color: $primary;
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+      }
+    }
+  }
+}
