@@ -5,7 +5,7 @@ $primary: #fff;
   box-sizing: border-box;
 }
 .pros-container {
-  
+  box-shadow: inset 0 0 60px 60px rgba(113, 153, 226, 0.3);
   width: 100%;
   background-color: #fff;
   display: flex;
@@ -35,10 +35,10 @@ $primary: #fff;
   .card {
     width: 320px;
     margin: 20px 100px;
-    padding: 10px 30px;
-    padding-top: 50px;
+    padding: 20px 30px;
+    padding-top: 80px;
    
-    height: 320px;
+    height: 400px;
     overflow: hidden;
     .hands {
       width: 100%;

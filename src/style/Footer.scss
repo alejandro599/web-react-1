@@ -10,6 +10,7 @@ $primary: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top:  2px solid blue;
   .map {
     width: 1000px;
     height: 400px;
@@ -167,29 +168,7 @@ $primary: #fff;
     display: flex;
     justify-content: center;
   }
-  .custom-shape-divider-bottom-1606860921 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    margin-top: -1px;
-  }
-
-  .custom-shape-divider-bottom-1606860921 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 132px;
-  }
-
-  .custom-shape-divider-bottom-1606860921 .shape-fill {
-    fill: #ffffff;
-  }
 }
-
 /*Social Icons*/
 .social-icon-link {
   color: $primary;

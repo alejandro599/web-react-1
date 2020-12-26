@@ -156,6 +156,7 @@ export default function Bloques() {
   return (
     <>
       <div className="bloq-section">
+        {/** 
       <div class="custom-shape-divider-bottom-1606860921">
           <svg
             data-name="Layer 1"
@@ -169,6 +170,7 @@ export default function Bloques() {
             ></path>
           </svg>
         </div>
+        */}
         <h1 className="tittle scroll">Nuestros Bloques!!! </h1>
         {/****************** SEBASTIÁN PAGADOR*****************/ }
         <div className="block-container iconos scroll-1">

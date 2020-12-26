@@ -113,6 +113,7 @@ function Cards() {
             Integrantes!!!
           </p>
         </div>
+        {/** 
         <div className="custom-shape-divider-bottom-1606860921">
           <svg
             data-name="Layer 1"
@@ -126,6 +127,7 @@ function Cards() {
             ></path>
           </svg>
         </div>
+        */}
       </div>
     </>
   );
