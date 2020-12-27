@@ -1,11 +1,12 @@
 import React from "react";
 
 import "../../App.scss";
+import HeroForm from "../HeroForm";
 
 export default function SignUP() {
   return (
     <>
-      <h1 className="sign-up"> No tienes Acceso</h1>
+      <HeroForm/>
     </>
   );
 }

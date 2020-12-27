@@ -306,6 +306,9 @@ $primary: #fff;
 }
 @media screen and(max-width:360px) {
   .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .map {
       width: 300px;
     }

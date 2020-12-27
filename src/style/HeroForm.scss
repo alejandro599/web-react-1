@@ -1,0 +1,78 @@
+$primary: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sign-up {
+  background-image: url("/images/caporal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -100px;
+  
+  .form {
+    border: 1px solid blue;
+    width: 500px;
+    display: flex;
+    background-color: rgba(#000000, 0.7);
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    .user {
+      margin: 20px;
+      font-size: 150px;
+      margin-top: 50px;
+      color: rgb(58, 58, 209);
+      background: #eeff00;
+      text-shadow: rgb(226, 228, 219) 0px 0px 5px, rgb(252, 247, 0) 0px 0px 10px,
+        #fff 0px 0px 15px, #0004fd 0px 0px 20px, #ffffff 0px 0px 30px,
+        #2f01f8 0px 0px 20px, #2d01f0 0px 0px 20px, #0a18d6 0px 0px 75px;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .label {
+      margin: 20px;
+      align-self: start;
+      color: $primary;
+      font-size: 20px;
+      margin-bottom: 1px;
+      text-shadow: 0 0 20px rgb(230, 226, 1);
+    }
+    .input {
+      align-self: start;
+      box-sizing: border-box;
+     padding: 20px ;
+     margin: 20px;
+      width: 90%;
+      &:focus{
+        
+      border:2px solid blue;
+      outline: none;
+      }
+
+    }
+    
+    .send {
+      margin: 40px;
+      padding: 20px;
+      cursor: pointer;
+      background: linear-gradient(to bottom, blue, white, );
+      text-shadow: 0 2px 10px rgba(0,0 ,0, 1);
+     border: 1px solid yellow;
+     border-radius: 20px;
+   
+     &:active{
+       color:yellow;
+     }
+    }
+    
+  }
+  
+}
