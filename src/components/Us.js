@@ -85,7 +85,7 @@ function Us() {
             2013, organización sin fines de lucro. <br/>
             Tenemos como Objetivo Llevar a lo más alto nuestra Cultura.  <br/><br/></p>
             <p className="lema">
-            <u> Nuestro Lema:</u> <i><b className="cult">CULTURA ORUREÑA!!!</b></i> </p>
+            <u> Nuestro Lema : </u> <i><b className="cult">CULTURA ORUREÑA!!!</b></i> </p>
             
           
         </div>

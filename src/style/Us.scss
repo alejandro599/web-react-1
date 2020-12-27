@@ -7,8 +7,6 @@ $primary: #fff;
   height: 100vh;
   position: fixed;
   z-index: -1;
-  
- 
 }
 .us-containter {
   height: 100vh;
@@ -16,7 +14,6 @@ $primary: #fff;
   flex-direction: column;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   margin-top: -100px;
-  
 
   h1 {
     font-size: 100px;
@@ -45,7 +42,7 @@ $primary: #fff;
     padding: 150px;
     h2 {
       text-transform: capitalize;
-margin-bottom: 20px;
+      margin-bottom: 20px;
       font-family: "Roboto", sans-serif;
     }
     p {
@@ -71,89 +68,148 @@ margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 1200px) {
-  .us-containter{
-    .virgen{
+  .us-containter {
+    .virgen {
       object-fit: cover;
       width: 100%;
       height: 100vh;
       position: fixed;
       z-index: -1;
-      
     }
     .about-us {
       padding: 100px;
-      p{
+      p {
         line-height: 2rem;
       }
     }
   }
-  
 }
 @media only screen and (max-width: 1000px) {
-  .us-containter{
+  .us-containter {
     display: flex;
     justify-content: flex-end;
-    
-    .virgen{
+
+    .virgen {
       object-fit: cover;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-      
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
     }
     .about-us {
       padding: 80px;
       width: 100%;
-      p{
+      p {
         line-height: 2rem;
       }
     }
   }
 }
 @media only screen and (max-width: 960px) {
-  
-  .us-containter{
-    .virgen{
+  .us-containter {
+    .virgen {
       object-fit: cover;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-      
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
     }
-    
-    
+
     .about-us {
       padding: 40px;
       width: 100%;
-      p{
+      p {
         line-height: 1.5rem;
-      
       }
     }
   }
 }
 @media only screen and (max-width: 764px) {
-  
-  .us-containter{
+  .us-containter {
     display: flex;
     justify-content: flex-end;
-    .virgen{
+    .virgen {
       object-fit: cover;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
       background-attachment: fixed;
     }
-    
+
     .about-us {
       padding: 40px;
       width: 100%;
-      p{
+      height: 500px;
+      p {
         line-height: 1.5rem;
-      
+      }
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  .us-containter {
+    display: flex;
+    justify-content: flex-end;
+    .virgen {
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
+      background-attachment: fixed;
+    }
+    .about-us {
+      position: relative;
+      top: -10px;
+      padding: 20px;
+      height: 500px;
+     
+      h2{
+        margin-bottom: 0px;
+      }
+      p {
+        line-height: 1.2rem;
+        word-spacing: 1px;
+        font-size: 10px;
+      }
+      .lema {
+        word-spacing: 1px;
+        width: 100%;
+
+        margin-top: -20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .us-containter {
+    display: flex;
+    justify-content: flex-end;
+    .virgen {
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: -1;
+      background-attachment: fixed;
+    }
+
+    .about-us {
+      position: relative;
+      top: 60px;
+      padding: 20px;
+      height: 60px;
+      margin-bottom: 150px;
+      p {
+        line-height: 1.2rem;
+        word-spacing: 1px;
+      }
+      .lema {
+        word-spacing: 1px;
+        width: 100%;
+
+        padding: -60px;
       }
     }
   }

@@ -1,6 +1,24 @@
 
 @media only screen and (max-width: 764px) {
 .bloq-section {
+  .iconos {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    .info-container {
+      .logo-container {
+        background-image: url("/images/images_section/kachFon.jpg");
+        .logo {
+          background-image: url("/images/images_section/iconosLogo.jpg");
+        }
+      }
+    }
+    .img-container {
+      .img {
+        background-image: url("/images/images_section/iconos.jpg");
+      }
+    }
+  }
 
 .kacha{
   .info-container{
