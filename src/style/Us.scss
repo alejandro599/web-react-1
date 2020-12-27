@@ -147,7 +147,7 @@ $primary: #fff;
     }
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) , screen and (max-height: 360px) {
   .us-containter {
     display: flex;
     justify-content: flex-end;
@@ -182,7 +182,7 @@ $primary: #fff;
     }
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px){
   .us-containter {
     display: flex;
     justify-content: flex-end;
@@ -201,6 +201,7 @@ $primary: #fff;
       padding: 20px;
       height: 60px;
       margin-bottom: 150px;
+      height: 250px;
       p {
         line-height: 1.2rem;
         word-spacing: 1px;
