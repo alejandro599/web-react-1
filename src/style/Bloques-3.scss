@@ -7,7 +7,7 @@
     margin-top: 10px;
     .info-container {
       .logo-container {
-        background-image: url("/images/images_section/kachFon.jpg");
+        background-image: url("/images/images_section/iconos.jpg");
         .logo {
           background-image: url("/images/images_section/iconosLogo.jpg");
         }
@@ -185,3 +185,275 @@
 }
 }
 }
+@media only screen and (max-width: 360px) {
+  .bloq-section {
+    .iconos {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 10px;
+      .info-container {
+        .logo-container {
+          background-image: url("/images/images_section/iconos.jpg");
+          .logo {
+            background-image: url("/images/images_section/iconosLogo.jpg");
+            
+          }
+        }
+      }
+      .img-container {
+        .img {
+          background-image: url("/images/images_section/iconos.jpg");
+        }
+      }
+    }
+  
+  .kacha{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/kachamosas2.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+    }
+  }
+  .cholas{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/cholas.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+              top: 80px;
+        }
+      }
+    }
+  }
+  .arawi{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/arawi3.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+          
+        }
+      }
+    }
+  }
+  .oruro{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/bloqueOruro.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+      .text {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        h2 {
+          letter-spacing: -1px;
+          padding-top: 20px;
+          font-size: 1.5rem;
+          margin-top: 20px;
+
+          text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+          padding: 20px;
+          padding-top: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .m-h{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/m-h2.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+    }
+  }
+  .sanIsidro{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/sanIsidro.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+    }
+  }
+  .sanIsidro{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/sanIsidro.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+    }
+  }
+  .chinas{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/chinas.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+      .text {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        h2 {
+          letter-spacing: -1px;
+          padding-top: 20px;
+          font-size: 1.5rem;
+          margin-top: 20px;
+
+          text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+          padding: 20px;
+          padding-top: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .reyes{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/reyes2.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+    }
+  }
+  .central{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/central.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+              top: 80px;
+        }
+      }
+      .text {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        h2 {
+          letter-spacing: -1px;
+          padding-top: 20px;
+          font-size: 1.5rem;
+          margin-top: 20px;
+
+          text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+          padding: 20px;
+          padding-top: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .candila{
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/candila.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+      .text {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        h2 {
+          letter-spacing: -1px;
+          padding-top: 20px;
+          font-size: 1.5rem;
+          margin-top: 20px;
+
+          text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+          padding: 20px;
+          padding-top: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .orureños{
+    margin-bottom: 10px;
+    .info-container{
+      .logo-container{
+        background-image: url("/images/images_section/orureños.jpg");
+        background-size: cover ;
+        background-position:center ;
+        .logo{
+          right: 0px;
+          top: 80px;
+        }
+      }
+      .text {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        h2 {
+          letter-spacing: -1px;
+          padding-top: 20px;
+          font-size: 1.5rem;
+          margin-top: 20px;
+
+          text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+          padding: 20px;
+          padding-top: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  }
+  }
